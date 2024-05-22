@@ -487,7 +487,6 @@ body {
     padding: 0%;
 
 }
-/* {box-sizing: border-box}
 
 /* Page 6 Starts */
 
@@ -589,12 +588,14 @@ body {
     display: block;
 }
 
+/* Page7 starts */
 
 .page7-container {
     background-image: url('./section_bg01.jpg');
     /* width:100%; */
     height: 100vh;
     background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
