@@ -1,5 +1,5 @@
-/* On screens that are 990px or less, set the background color to blue */
-@media only screen and (max-width: 990px) {
+ /* On screens that are 990px or less, set the background color to blue */
+ @media only screen and (max-width: 990px) {
   .header {
     flex-direction: column;
     align-content: flex-start;
@@ -105,341 +105,470 @@
     border-radius: 50px;
   }
 
-  /* Intro Container Start */
-  .intro-container {
-    background-image: none;
-    padding: 0px 5vh 0 5vh;
-    margin: 0;
-    height: 80vh;
-  }
 
+
+    /* Intro Container Start */
+    .intro-container {
+      background-image: none;
+      padding: 0px 5vh 0 5vh;
+      margin: 0;
+      height: 80vh;
+      
+  }
+  
   .introduction {
-    display: flex;
-    max-width: max-content;
-    transform: none;
-    gap: 20px;
+      display: flex;
+      max-width: max-content;
+      transform: none;
+      gap: 20px;
   }
-
-  .introduction h1 {
-    font-size: 72px;
-    font-weight: 350;
+  
+   .introduction h1 {
+      font-size: 72px;
+      font-weight: 350;
   }
-
+  
   .introduction p {
-    font-size: 40px;
-    margin-top: 0;
-    font-family: "Mulish";
+      font-size: 40px;
+      margin-top: 0;
+      font-family: 'Mulish';
   }
-
+  
+  
   .intro-btn {
-    font-size: 35px;
-    font-weight: 600;
-    padding: 40px 40px;
-    border-radius: 60px;
-  }
+      font-size: 35px;
+      font-weight: 600;
+      padding: 40px 40px;
+      border-radius: 60px;
+  } 
 
-  /* /* Our Container Startpage */
+      /* /* Our Container Startpage */
   .ourservices-container {
-    height: 250vh;
-    justify-content: flex-start;
+      height: 250vh;
+      justify-content: flex-start;
   }
 
   .ourservices {
-    margin: 0vh 5vh 0vh 5vh;
+      margin: 0vh 5vh 0vh 5vh;
   }
 
   .ourservices h5 {
-    font-size: 40px;
-    font-weight: 400;
+      font-size: 40px;
+      font-weight: 400;
+
   }
 
   .ourservices h2 {
-    font-size: 65px;
+      font-size: 65px;
+
   }
 
   .service-detail {
-    flex-direction: column;
-    margin-top: 12vh;
+      flex-direction: column; 
+      margin-top: 12vh;   
   }
 
   .service-detail img {
-    z-index: 1;
-    padding: 60px 60px 60px 60px;
-    border-radius: 20vh;
-    /* padding-bottom: 30px; */
-    height: 25vh;
+      z-index: 1;
+      padding: 60px 60px 60px 60px;
+      border-radius: 20vh;
+      /* padding-bottom: 30px; */
+      height: 25vh;
   }
 
   .servicename {
-    background-color: #fff;
-    padding-bottom: 20vh;
-    gap: 5vh;
+      background-color: #fff;
+      padding-bottom: 20vh;
+      gap: 5vh;
   }
 
   .service-detail h1 {
-    font-size: 60px;
+      font-size: 60px;
   }
 
   .service-detail p {
-    font-size: 37px;
-    line-height: 40px;
+      font-size: 37px;
+      line-height: 40px;
   }
 
-  /* Page 3 Starts */
 
-  .page3-container-main {
-    height: 160vh;
-    padding-bottom: 30vh;
-  }
 
-  .page3-container {
-    margin: 0vh 5vh 0vh 5vh;
-    flex-direction: column;
-  }
-  .pg-left img {
-    width: 90vw;
-  }
+   /* Page 3 Starts */
 
-  .pg-mid {
-    transform: translateY(-245px);
-    width: 80vw;
-    height: 15vh;
-  }
+   .page3-container-main {
+     height: 160vh;
+     padding-bottom: 30vh;
+   }
 
-  .newfeature img {
-    width: 10vh;
-    margin-right: 5vh;
-  }
+   .page3-container {
+     margin: 0vh 5vh 0vh 5vh;
+     flex-direction: column;
+   }
 
-  .newfeature h4 {
-    font-size: 46px;
-  }
+   .pg-left img {
+     width: 90vw;
+   }
 
-  .newfeature p {
-    font-size: 40px;
-  }
 
-  .pg-right {
-    transform: translateY(-150px);
-  }
-  .right1 {
-    width: 55vw;
-  }
+   .pg-mid {
+     transform: translateY(-245px);
+     width: 80vw;
+     height: 15vh;
+   }
 
-  .right1 h2 {
-    font-size: 65px;
-  }
+   .newfeature img {
+     width: 10vh;
+     margin-right: 5vh;
+   }
 
-  .right2 {
-    flex-direction: column;
-    width: 88vw;
-  }
 
-  .img-serv-top {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 35px;
-  }
-  .img-serv-top img {
-    height: 15vh;
-  }
+   .newfeature h4 {
+     font-size: 46px;
+   }
 
-  .pg3-right2-text {
-    margin-left: 20px;
-  }
+   .newfeature p {
+     font-size: 40px;
+   }
 
-  .img-serv-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-  }
-  .img-serv-bottom img {
-    height: 15vh;
-  }
+   .pg-right {
+     transform: translateY(-150px);
 
-  .right2 h4 {
-    font-size: 44px;
-    font-weight: 400;
-    margin-bottom: 30px;
-  }
+   }
 
-  .right2 p {
-    font-size: 35px;
-  }
-  .right3 {
-    margin-top: 7vh;
-  }
-  /* Page 4 Starts */
+   .right1 {
+     width: 55vw;
+   }
 
-  .page4-container-main {
-    padding: 10vh 5vh 10vh 5vh;
-    height: 214vh;
-  }
+   .right1 h2 {
+     font-size: 65px;
+   }
 
-  .pageitem1 {
-    flex-direction: column;
-  }
+   .right2 {
+     flex-direction: column;
+     width: 88vw;
 
-  .pg-4-left h5 {
-    font-size: 40px;
-  }
+   }
 
-  .pg-4-left h2 {
-    font-size: 70px;
-  }
+   .img-serv-top {
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 35px;
+   }
 
-  .pg-4-right h4 {
-    font-size: 40px;
-    line-height: 1.5;
-  }
+   .img-serv-top img {
+     height: 15vh;
+   }
 
-  .pageitem2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5vh;
-  }
 
-  .industry {
-    padding: 50px 36px 39px 36px;
-    width: 80vw;
-    height: 30vh;
-  }
+   .pg3-right2-text {
+     margin-left: 20px;
+   }
 
-  .industry h5 {
-    font-size: 50px;
-  }
+   .img-serv-bottom {
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 40px;
+   }
 
-  .industry img {
-    width: 12vw;
-  }
+   .img-serv-bottom img {
+     height: 15vh;
+   }
 
-  .pageitem3 {
-    font-family: "Mulish";
-    font-size: 40px;
-  }
 
-  /* Page 5 Starts */
+   .right2 h4 {
+     font-size: 44px;
+     font-weight: 400;
+     margin-bottom: 30px;
+   }
 
-  .page5-container-main {
-    height: 140vh;
-    padding: 10vh 5vh 10vh 5vh;
-    justify-content: flex-start;
-  }
+   .right2 p {
+     font-size: 35px;
+   }
 
-  .pageitem5-1 {
-    max-width: 100%;
-  }
+   .right3 {
+     margin-top: 7vh;
 
-  .pageitem5-1 h2 {
-    font-size: 70px;
-  }
+   }
 
-  .pageitem5-1 p {
-    font-size: 43px;
-    line-height: 1.5;
-  }
+   /* Page 4 Starts */
 
-  #pg5-btn {
-    padding: 30px 62px;
-    font-size: 32px;
-    border-radius: 40px;
-  }
+   .page4-container-main {
+     padding: 10vh 5vh 10vh 5vh;
+     height: 214vh;
+   }
 
-  .pageitem5-3 {
-    flex-direction: column;
-  }
+   .pageitem1 {
+     flex-direction: column;
+   }
 
-  .pg5item {
-    margin-top: 5vh;
-  }
+   .pg-4-left h5 {
+     font-size: 40px;
+   }
 
-  .pg5item p {
-    font-size: 42px;
-  }
+   .pg-4-left h2 {
+     font-size: 70px;
+   }
 
-  .pg5item h1 {
-    font-size: 86px;
-    margin: 0;
-  }
+   .pg-4-right h4 {
+     font-size: 40px;
+     line-height: 1.5;
+   }
 
-  .hr-style {
-    margin: 0%;
-    padding: 0%;
-  }
 
-  /* Page 6 Starts */
+   .pageitem2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 5vh;
+   }
 
-  .page6-container-main {
-    height: fit-content;
-    padding: 10vh 5vh 10vh 5vh;
-  }
+   .industry {
+     padding: 50px 36px 39px 36px;
+     width: 80vw;
+     height: 30vh;
+   }
 
-  .pg6item-1 {
-    text-align: center;
-    margin-bottom: 0vh;
-  }
+   .industry h5 {
+     font-size: 50px;
+   }
 
-  .pg6item-1 h2 {
-    font-size: 72px;
-  }
+   .industry img {
+     width: 12vw;
+   }
 
-  .pg6item-2 {
-    flex-direction: column;
-  }
+   .pageitem3 {
+     font-family: 'Mulish';
+     font-size: 40px;
+   }
 
-  .pg6image {
-    overflow: visible;
-    gap: 3vh;
-    height: 65vh;
-  }
+   /* Page 5 Starts */
 
-  .pg6image img {
-    width: 100%;
-    height: 50vh;
-    max-height: none;
-  }
+   .page5-container-main {
+     height: 140vh;
+     padding: 10vh 5vh 10vh 5vh;
+     justify-content: flex-start;
+   }
 
-  .pg6-overlay {
-    display: flex;
-    /* transform:translateY(-40vh) ; */
-    z-index: 2;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgba(152, 156, 190, 0.3); */
-  }
+   .pageitem5-1 {
+     max-width: 100%;
+   }
 
-  /* The overlay effect - lays on top of the container and over the image */
-  .overlay {
-    position: relative;
-    width: 100%;
-    max-height: none;
-    max-width: none;
-  }
+   .pageitem5-1 h2 {
+     font-size: 70px;
+   }
 
-  .pg6-round {
-    width: 23px;
-    height: 23px;
-    background: #fff;
-    border-radius: 30px;
-  }
+   .pageitem5-1 p {
+     font-size: 43px;
+     line-height: 1.5;
+   }
 
-  .pg6-overlay h4 {
-    color: #fff;
-    font-size: 27px;
-    letter-spacing: 2px;
-    margin: 0;
-  }
+   #pg5-btn {
+     padding: 30px 62px;
+     font-size: 32px;
+     border-radius: 40px;
+   }
 
-  .pg6-overlay p {
-    color: #fff;
-    font-size: 8px;
-    letter-spacing: 3px;
-    margin: 0;
-  }
+   .pageitem5-3 {
+     flex-direction: column;
+   }
 
-  .pg6image h2 {
-    font-size: 44px;
-  }
-}
+   .pg5item {
+     margin-top: 5vh;
+   }
+
+   .pg5item p {
+     font-size: 42px;
+   }
+
+   .pg5item h1 {
+     font-size: 86px;
+     margin: 0;
+   }
+
+   .hr-style {
+     margin: 0%;
+     padding: 0%;
+   }
+
+   /* Page 6 Starts */
+
+   .page6-container-main {
+     background-color: #fff;
+     display: flex;
+     flex-direction: column;
+     padding: 10vh 5vh 10vh 5vh;
+   }
+
+
+   .pg6item-1 h2 {
+     font-size: 70px;
+   }
+
+   .pg6item-2 {
+     flex-direction: column;
+   }
+
+
+   .pg6-round {
+     width: 35px;
+     height: 35px;
+   }
+
+   .overlay h4 {
+     font-size: 48px;
+     font-family: "Josefin Sans", sans-serif;
+     margin: 2vh 0 2vh;
+   }
+
+   .overlay p {
+     font-size: 28px;
+     text-align: center;
+   }
+
+   .pg6image h2 {
+     font-size: 46px;
+     margin-bottom: 5vh;
+     /* display: block; */
+   }
+
+   /* Page 7 starts */
+
+   .page7-container {
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     display: flex;
+     justify-content: center;
+   }
+
+
+
+   .page7-content {
+     max-width: 100vh;
+   }
+
+
+   .page7-content h2 {
+     font-size: 64px;
+   }
+
+   .page7-content button {
+     padding: 57px 60px;
+     font-size: 40px;
+     font-weight: 600;
+     border-radius: 60px;
+   }
+
+   /* footer starts */
+
+   .footer-container {
+     flex-direction: column;
+     display: flex;
+     height: fit-content;
+
+     padding: 10vh 5vh 0vh 5vh;
+
+     ul {
+       list-style-type: none;
+     }
+
+     h4 {
+       font-size: 42px;
+     }
+
+     .footer-col1 {
+       list-style-type: none;
+       padding-left: 0px;
+
+       li {
+         padding: 12px 0;
+       }
+
+       img {
+         vertical-align: middle;
+         border-style: none;
+         margin-bottom: 24px;
+       }
+
+       #text {
+         font-size: 36px;
+       }
+
+       #number {
+         font-size: 40px !important;
+       }
+
+       #email {
+         font-size: 36px !important;
+       }
+
+     }
+
+
+     .footer-col2 {
+       display: flex;
+       margin-top: 16px;
+       flex-direction: column;
+
+       ul {
+         padding-left: 0
+       }
+
+       li {
+         margin-bottom: 15px;
+       }
+
+       a {
+         font-size: 32px;
+       }
+
+     }
+
+     .footer-col3 {
+       /* margin-top: 16px;
+          flex-direction: column;
+          input {
+              width: 87%;
+              height: 32px;
+              padding: 10px 20px;
+              border: 1px solid #232F55;
+              border-radius: 30px;
+              background: none;
+              color: #232F55;
+              margin: 0;
+              font-family: inherit;
+              font-size: inherit;
+              line-height: inherit;
+          } */
+
+
+       .logos {
+         display: flex;
+         margin: 12px 0;
+
+         div {
+           background-size: 27px 35px;
+           background-repeat: no-repeat;
+           height: 60px;
+           width: 55px;
+         }
+
+         #fb {
+           background-image: url('./Facebook\ icon.png');
+         }
+
+         #insta {
+           background-image: url('./instagram\ icon.png');
+         }
+
+         #linkedIn {
+           background-image: url('./LinkedIn\ icon.png');
+         }
+
+         #youtube {
+           background-image: url('./youtube\ icon.png');
+         }
+       }
+     }
+   }
+ }

@@ -53,6 +53,9 @@ body {
     padding-right: 80px;
 }
 
+.bottomitem {
+    display: none;
+}
 #headerbtn {
     border: 2px solid #fff;
     background-color: inherit;
@@ -126,6 +129,8 @@ body {
     font-weight: 700;
     border-radius: 25px;
 }
+
+/* Page 2 Starts */
 
 /* Page 2 Starts */
 
@@ -796,6 +801,3 @@ body {
     }
 
 }
-
-
-
