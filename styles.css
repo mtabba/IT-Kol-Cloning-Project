@@ -172,6 +172,7 @@ body {
     gap: 0vh;
     cursor: pointer;
     height: 40vh;
+    justify-content: center;
 }
 
 .servicename:hover {
@@ -517,47 +518,57 @@ body {
 
 .pg6image {
     display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    overflow: hidden;
-    z-index: 0;
     align-items: center;
-    margin: 0 12px;
-    position: relative;
+    z-index: 0;
+    flex-direction: column;
 
 
 }
 
-.pg6image img {
+/* .pg6image img {
     width: min-content;
     max-height: 300px;
-}
+} */
 
-.pg6-overlay {
+.overlay {
     display: flex;
-    /* transform:translateY(-40vh) ; */
     z-index: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(152, 156, 190, 0.3); */
 }
 
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-    position: absolute;
-    /* bottom: 0; */
+    width: 61vh;
+    align-items: center;
+    border-radius: 15px;
     background-color: rgba(0, 9, 94, 0.4);
-
+    height: 51vh;
     color: #f1f1f1;
-    width: 100%;
-    height: 82%;
     opacity: 2;
-    max-height: 300px;
-    max-width: 362px;
 }
 
+.pg6image#item6-1{
+    background-image: url(ezgif-2-23981be6ff11.png);
+    background-repeat: no-repeat;
+    background-size: 61vh 51vh;
+    background-position: top;
+}
+
+.pg6image#item6-2{
+    background-image: url(ezgif-2-2d591551066b.png);
+    background-repeat: no-repeat;
+    background-size: 61vh 51vh;
+    background-position: top;
+}
+.pg6image#item6-3{
+    background-image: url(ezgif-2-823d93dfde62.png);
+    background-repeat: no-repeat;
+    background-size: 61vh 51vh;
+    background-position: top;
+}
 .pg6-round {
     width: 23px;
     height: 23px;
@@ -565,14 +576,14 @@ body {
     border-radius: 30px;
 }
 
-.pg6-overlay h4 {
+.overlay h4 {
     color: #fff;
     font-size: 27px;
     letter-spacing: 2px;
     margin: 0;
 }
 
-.pg6-overlay p {
+.overlay p {
     color: #fff;
     font-size: 8px;
     letter-spacing: 3px;
@@ -585,7 +596,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 0;
-    display: block;
+    /* display: block; */
 }
 
 /* Page7 starts */
@@ -648,17 +659,17 @@ body {
     border: 0;
 }
 
+/* footer starts */
 
 .footer-container {
     height: 100vh;
     background-color: white;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
-    gap: 10px;
-    padding-top: 140px;
+    padding: 20vh 12vh 0vh 12vh;
+    grid-template-columns: 30vw 14vw 14vw 30vw;
+    /* gap: 0px; */
+    /* padding-top: 140px; */
     font-family: "Mulish", sans-serif;
-    padding-left: 78px;
-    padding-right: 90px;
 
 
     ul {

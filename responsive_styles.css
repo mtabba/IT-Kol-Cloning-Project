@@ -316,78 +316,177 @@
     /* Page 6 Starts */
 
     .page6-container-main {
-        height: fit-content;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
         padding: 10vh 5vh 10vh 5vh;
     }
-
-    .pg6item-1 {
-        text-align: center;
-        margin-bottom: 0vh;
-    }
-
+    
+    
     .pg6item-1 h2 {
-        font-size: 72px;
+        font-size: 70px;
     }
-
+    
     .pg6item-2 {
         flex-direction: column;
     }
-
-    .pg6image {
-        overflow: visible;
-        gap: 3vh;
-        height: 65vh;
-    }
-
-    .pg6image img {
-        width: 100%;
-        height: 50vh;
-        max-height: none;
-    }
-
-    .pg6-overlay {
-        display: flex;
-        /* transform:translateY(-40vh) ; */
-        z-index: 2;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* background-color: rgba(152, 156, 190, 0.3); */
-    }
-
-
-    /* The overlay effect - lays on top of the container and over the image */
-    .overlay {
-        position: relative; 
-        width: 100%;
-        max-height: none;
-        max-width: none;
-    }
-
+        
+    
     .pg6-round {
-        width: 23px;
-        height: 23px;
-        background: #fff;
-        border-radius: 30px;
+        width: 35px;
+        height: 35px;
     }
-
-    .pg6-overlay h4 {
-        color: #fff;
-        font-size: 27px;
-        letter-spacing: 2px;
-        margin: 0;
+    
+    .overlay h4 {
+        font-size: 48px;
+        font-family: "Josefin Sans", sans-serif;
+        margin: 2vh 0 2vh;
     }
-
-    .pg6-overlay p {
-        color: #fff;
-        font-size: 8px;
-        letter-spacing: 3px;
-        margin: 0;
+    
+    .overlay p {
+        font-size: 28px;
+        text-align: center;
     }
-
+    
     .pg6image h2 {
-        font-size: 44px;  
+        font-size: 46px;
+        margin-bottom: 5vh;
+        /* display: block; */
+    }
+    /* Page 7 starts */
+
+    .page7-container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    
+    .page7-content {
+        max-width: 100vh;
+    }
+    
+    
+    .page7-content h2 {
+        font-size: 64px;
+    }
+    
+    .page7-content button {
+        padding: 57px 60px;
+        font-size: 40px;
+        font-weight: 600;
+        border-radius: 60px;
     }
 
+    /* footer starts */
 
+    .footer-container {
+        flex-direction: column;
+        display: flex;
+        height: fit-content;
+
+        padding: 10vh 5vh 0vh 5vh;
+    
+        ul {
+            list-style-type: none;
+        }
+    
+        h4 {
+            font-size: 42px;
+        }
+    
+        .footer-col1 {
+            list-style-type: none;
+            padding-left: 0px;
+    
+            li {
+                padding: 12px 0;
+            }
+    
+            img {
+                vertical-align: middle;
+                border-style: none;
+                margin-bottom: 24px;
+            }
+    
+            #text {
+                font-size: 36px;
+            }
+    
+            #number {
+                font-size: 40px !important;    
+            }
+    
+            #email {
+                font-size: 36px !important;
+            }
+    
+        }
+    
+    
+        .footer-col2 {
+            display: flex;
+            margin-top: 16px;
+            flex-direction: column;
+    
+            ul {
+                padding-left: 0
+            }
+    
+            li {
+                margin-bottom: 15px;
+            }
+    
+            a {
+                font-size: 32px;
+            }
+    
+        }
+    
+        .footer-col3 {
+            /* margin-top: 16px;
+            flex-direction: column;
+            input {
+                width: 87%;
+                height: 32px;
+                padding: 10px 20px;
+                border: 1px solid #232F55;
+                border-radius: 30px;
+                background: none;
+                color: #232F55;
+                margin: 0;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+            } */
+    
+    
+            .logos {
+                display: flex;
+                margin:12px 0;
+                div{
+                    background-size: 27px 35px;
+                    background-repeat: no-repeat;
+                    height: 60px;
+                    width:55px;
+                }
+    
+                #fb {
+                    background-image: url('./Facebook\ icon.png');
+                }
+                #insta {
+                    background-image: url('./instagram\ icon.png');
+                }
+    
+                #linkedIn {
+                    background-image: url('./LinkedIn\ icon.png');
+                }
+                #youtube {
+                    background-image: url('./youtube\ icon.png');
+                }
+            }
+        }
 }
