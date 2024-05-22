@@ -1,0 +1,218 @@
+ /* On screens that are 990px or less, set the background color to blue */
+ @media only screen and (max-width: 990px) {
+    
+    .header {
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 18vh;
+    }
+    
+    .leftitem {
+        flex-direction: column;
+        margin-bottom: 5vh;
+        align-items: flex-start;    
+    }
+    #head-image img {
+        margin-left: 0%;
+        width: 20vh;
+    }
+
+    #navigation {
+    display: none;
+    }
+    
+    .rightitem {
+        z-index: 1;
+        position: absolute;
+        margin-right: 2vh;
+    }
+    
+    #headerbtn {
+        color: #fff;
+        padding: 30px 30px;
+        font-size: 35px;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+    
+
+    /* Intro Container Start */
+    .intro-container {
+        background-image: none;
+        padding: 0px 5vh 0 5vh;
+        margin: 0;
+        height: 80vh;
+        
+    }
+    
+    .introduction {
+        display: flex;
+        max-width: max-content;
+        transform: none;
+        gap: 20px;
+    }
+    
+     .introduction h1 {
+        font-size: 72px;
+        font-weight: 350;
+    }
+    
+    .introduction p {
+        font-size: 40px;
+        margin-top: 0;
+        font-family: 'Mulish';
+    }
+    
+    
+    .intro-btn {
+        font-size: 35px;
+        font-weight: 600;
+        padding: 40px 40px;
+        border-radius: 60px;
+    } 
+
+        /* /* Our Container Startpage */
+    .ourservices-container {
+        height: 250vh;
+        justify-content: flex-start;
+    }
+
+    .ourservices {
+        margin: 0vh 5vh 0vh 5vh;
+    }
+
+    .ourservices h5 {
+        font-size: 40px;
+        font-weight: 400;
+
+    }
+
+    .ourservices h2 {
+        font-size: 65px;
+
+    }
+
+    .service-detail {
+        flex-direction: column; 
+        margin-top: 12vh;   
+    }
+
+    .service-detail img {
+        z-index: 1;
+        padding: 60px 60px 60px 60px;
+        border-radius: 20vh;
+        /* padding-bottom: 30px; */
+        height: 25vh;
+    }
+
+    .servicename {
+        background-color: #fff;
+        padding-bottom: 20vh;
+        gap: 5vh;
+    }
+
+    .service-detail h1 {
+        font-size: 60px;
+    }
+
+    .service-detail p {
+        font-size: 37px;
+        line-height: 40px;
+    }
+
+        
+    /* Page 3 Starts */
+
+    .page3-container-main {
+        height: 160vh;
+        padding-bottom: 30vh;
+    }
+
+    .page3-container {
+        margin: 0vh 5vh 0vh 5vh;
+        flex-direction: column;
+    }
+    .pg-left img {
+        width: 90vw;
+    }
+
+
+    .pg-mid {
+        transform: translateY(-245px);
+        width: 80vw;
+        height: 15vh;
+    }
+
+    .newfeature img {
+        width: 10vh;
+        margin-right: 5vh;
+    }
+
+
+    .newfeature h4 {
+        font-size: 46px;
+    }
+
+    .newfeature p {
+        font-size: 40px;
+    }
+
+    .pg-right {
+        transform: translateY(-150px);
+
+    }
+    .right1 {
+        width: 55vw;
+    }
+
+    .right1 h2 {
+        font-size: 65px;
+    }
+
+    .right2 {
+        flex-direction: column;
+        width: 88vw;
+
+    }
+
+    .img-serv-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap:35px;
+    }
+    .img-serv-top img {
+        height: 15vh;
+    }
+
+
+    .pg3-right2-text {
+        margin-left: 20px;
+    }
+
+    .img-serv-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap:40px;
+    }
+    .img-serv-bottom img {
+        height: 15vh;
+    }
+
+
+    .right2 h4 {
+        font-size: 44px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .right2 p {
+        font-size: 35px;
+    }
+    .right3 {
+        margin-top: 7vh;
+
+    }
+
+}

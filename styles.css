@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
 body {
     font-family: "Mullish", sans-serif;
     font-size: 16px;
@@ -84,7 +83,9 @@ body {
     background-size: 90% 90%;
     background-position: bottom;
     background-repeat: no-repeat;
+    
 }
+
 
 .introduction {
     color: #fff;
@@ -237,9 +238,6 @@ body {
     margin: 0vh 12vh 0vh 12vh;
 }
 
-.pg-left {
-    /*   border: 1px solid;*/
-}
 
 .pg-mid {
     transform: translate(-23vh);
@@ -327,6 +325,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.2;
+}
+
+.right3 {
+    margin-top: 5vh;
+
 }
 
 /* Page 4 Starts */
@@ -479,7 +482,11 @@ body {
 
 }
 
+.hr-style {
+    margin: 0%;
+    padding: 0%;
 
+}
 /* {box-sizing: border-box}
 
 /* Page 6 Starts */
@@ -637,9 +644,6 @@ body {
     color: #FF4495;
     border-radius: 30px;
     line-height: 0;
-
-
-    -moz-user-select: none;
     border: 0;
 }
 
@@ -751,6 +755,35 @@ body {
             font-size: inherit;
             line-height: inherit;
         }
+
+
+        .logos {
+            display: flex;
+            margin:12px 0;
+            div{
+                background-size: 27px 35px;
+                background-repeat: no-repeat;
+                height: 60px;
+                width:55px;
+            }
+
+            #fb {
+                background-image: url('./Facebook\ icon.png');
+            }
+            #insta {
+                background-image: url('./instagram\ icon.png');
+            }
+
+            #linkedIn {
+                background-image: url('./LinkedIn\ icon.png');
+            }
+            #youtube {
+                background-image: url('./youtube\ icon.png');
+            }
+        }
     }
 
 }
+
+
+
