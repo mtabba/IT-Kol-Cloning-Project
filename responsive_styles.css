@@ -9,6 +9,9 @@
     flex-wrap: nowrap;
   }
 
+  .bottomitem {
+    display: block;
+  }
   .mobile-menu {
     position: absolute;
     right: 37px;
@@ -16,7 +19,7 @@
     padding: 7px;
     z-index: 99;
     background: #4c4c4c;
-    transform: translateY(-78px);
+    transform: translateY(-90px);
   }
 
   .mobile-menu #menu-btn {
@@ -105,99 +108,90 @@
     border-radius: 50px;
   }
 
-
-
-    /* Intro Container Start */
-    .intro-container {
-      background-image: none;
-      padding: 0px 5vh 0 5vh;
-      margin: 0;
-      height: 80vh;
-      
+  /* Intro Container Start */
+  .intro-container {
+    background-image: none;
+    padding: 0px 5vh 0 5vh;
+    margin: 0;
+    height: 80vh;
   }
-  
+
   .introduction {
-      display: flex;
-      max-width: max-content;
-      transform: none;
-      gap: 20px;
+    display: flex;
+    max-width: max-content;
+    transform: none;
+    gap: 20px;
   }
-  
-   .introduction h1 {
-      font-size: 72px;
-      font-weight: 350;
-  }
-  
-  .introduction p {
-      font-size: 40px;
-      margin-top: 0;
-      font-family: 'Mulish';
-  }
-  
-  
-  .intro-btn {
-      font-size: 35px;
-      font-weight: 600;
-      padding: 40px 40px;
-      border-radius: 60px;
-  } 
 
-      /* /* Our Container Startpage */
+  .introduction h1 {
+    font-size: 72px;
+    font-weight: 350;
+  }
+
+  .introduction p {
+    font-size: 40px;
+    margin-top: 0;
+    font-family: "Mulish";
+  }
+
+  .intro-btn {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 40px 40px;
+    border-radius: 60px;
+  }
+
+  /* /* Our Container Startpage */
   .ourservices-container {
-      height: 250vh;
-      justify-content: flex-start;
+    height: fit-content;
   }
 
   .ourservices {
-      margin: 0vh 5vh 0vh 5vh;
+    margin: 0vh 5vh 0vh 5vh;
   }
 
   .ourservices h5 {
-      font-size: 40px;
-      font-weight: 400;
-
+    font-size: 40px;
+    font-weight: 400;
   }
 
   .ourservices h2 {
-      font-size: 65px;
-
+    font-size: 65px;
   }
 
   .service-detail {
-      flex-direction: column; 
-      margin-top: 12vh;   
+    flex-direction: column;
+    margin-top: 12vh;
   }
 
   .service-detail img {
-      z-index: 1;
-      padding: 60px 60px 60px 60px;
-      border-radius: 20vh;
-      /* padding-bottom: 30px; */
-      height: 25vh;
+    z-index: 1;
+    padding: 60px 60px 60px 60px;
+    border-radius: 20vh;
+    /* padding-bottom: 30px; */
+    height: 25vh;
   }
 
   .servicename {
-      background-color: #fff;
-      padding-bottom: 20vh;
-      gap: 5vh;
+    background-color: #fff;
+    padding-bottom: 20vh;
+    gap: 5vh;
   }
 
   .service-detail h1 {
-      font-size: 60px;
+    font-size: 60px;
   }
 
   .service-detail p {
-      font-size: 37px;
-      line-height: 40px;
+    font-size: 37px;
+    line-height: 40px;
   }
-
 
 
    /* Page 3 Starts */
 
    .page3-container-main {
-     height: 160vh;
-     padding-bottom: 30vh;
+     height: fit-content;
    }
 
    .page3-container {
@@ -294,7 +288,7 @@
 
    .page4-container-main {
      padding: 10vh 5vh 10vh 5vh;
-     height: 214vh;
+     height: fit-content;
    }
 
    .pageitem1 {
@@ -344,7 +338,7 @@
    /* Page 5 Starts */
 
    .page5-container-main {
-     height: 140vh;
+     height: fit-content;
      padding: 10vh 5vh 10vh 5vh;
      justify-content: flex-start;
    }
