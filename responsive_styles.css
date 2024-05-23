@@ -242,8 +242,11 @@
 
    .right2 {
      flex-direction: column;
-     width: 88vw;
+     width: 75vw;
 
+   }
+   .right2 img {
+    inline-size: auto;
    }
 
    .img-serv-top {
