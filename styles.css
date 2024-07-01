@@ -632,7 +632,7 @@ inline-size: 10vh;
 
 .page7-container {
     background-image: url('./section_bg01.jpg');
-    width:100vw ;
+    width:auto ;
     height: 100vh;
     background-size: auto;
     background-size: cover;
